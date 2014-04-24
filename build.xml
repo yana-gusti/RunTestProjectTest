@@ -24,7 +24,7 @@
     </target>
 
     <!--<target name="dist" depends="compile" description="Create jar-file">-->
-        <!--<jar jarfile="${dist}/AntTest.jar" basedir="${buildSrc}"/>-->
+        <!--<jar ja    rfile="${dist}/AntTest.jar" basedir="${buildSrc}"/>-->
     <!--</target>-->
 
     <!--<target name="run" depends="dist" description="Run program">-->
