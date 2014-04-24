@@ -12,6 +12,6 @@ public class TestForAnt {
     @Test
     public void RunCMD() throws InterruptedException {
         AntTest.Tests();
-
+//        qweqwerqw
     }
 }
