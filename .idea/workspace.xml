@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fffbc283-6466-4332-8e2f-69d7e98ab110" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Andrey\AntTest\build\classes\AntTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrey\AntTest\build\tests\TestForAnt.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrey\AntTest\dist\AntTest.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andrey\AntTest\drivers\chromedriver" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/TestForAnt.java" afterPath="$PROJECT_DIR$/test/TestForAnt.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AntTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="C:/ERP_Test/.idea/workspace.xml" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398349537981" ignored="false" />
+    <file path="C:/ERP_Test/.idea/workspace.xml" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398349647421" ignored="false" />
     <file path="/AntTest.java" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398347616293" ignored="false" />
     <file path="/test.xml" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398345159247" ignored="false" />
-    <file path="/Dummy.txt" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398349525470" ignored="false" />
+    <file path="/Dummy.txt" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398349628739" ignored="false" />
     <file path="/fragment.java" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398340982062" ignored="false" />
     <file path="/build.xml" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398348707385" ignored="false" />
     <file path="/a.dummy" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398342249004" ignored="false" />
-    <file path="/TestForAnt.java" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398349600207" ignored="false" />
+    <file path="/TestForAnt.java" changelist="fffbc283-6466-4332-8e2f-69d7e98ab110" time="1398349624593" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +91,7 @@
       <file leaf-file-name="TestForAnt.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TestForAnt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="19" selection-start="313" selection-end="313" vertical-scroll-proportion="0.41247833">
+            <state line="14" column="31" selection-start="318" selection-end="318" vertical-scroll-proportion="0.41247833">
               <folding />
             </state>
           </provider>
@@ -483,12 +487,16 @@
       <created>1398349530991</created>
       <updated>1398349530991</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="FirstCommit()">
+      <created>1398349611140</created>
+      <updated>1398349611140</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -499,12 +507,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -594,7 +602,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/TestForAnt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="313" selection-end="313" vertical-scroll-proportion="0.41247833">
+        <state line="14" column="31" selection-start="318" selection-end="318" vertical-scroll-proportion="0.41247833">
           <folding />
         </state>
       </provider>
