@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<project name="AntTest" basedir="." default="run">
+
+    <property name="src" location="src"/>
+    <property name="buildSrc" location="build/classes"/>
+    <property name="buildTest" location="build/tests"/>
+    <property name="dist"  location="dist"/>
+    <property name="test" location="test"/>
+
+    <target name="init">
+        <mkdir dir="${buildSrc}"/>
+        <mkdir dir="${buildTest}"/>
+        <mkdir dir="${dist}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src}" destdir="${buildSrc}"/>
+        <javac srcdir="${test}" destdir="${buildTest}">
+            <classpath>
+                <pathelement path="C:/Users/junit-4.10.jar"/>
+                <pathelement path="${buildSrc}"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="dist" depends="compile" description="Create jar-file">
+        <jar jarfile="${dist}/AntTest.jar" basedir="${buildSrc}"/>
+    </target>
+
+    <target name="run" depends="dist" description="Run program">
+        <java jar="${dist}/AntTest.jar" fork="true"/>
+    </target>
+
+    <target name="packSrc">
+        <zip destfile="AntTest.zip">
+            <fileset dir="." includes="**/*.java, **/*.mf, **/*.xml"/>
+        </zip>
+    </target>
+
+    <target name="test" depends="compile">
+        <junit fork="yes" haltonfailure="yes">
+            <classpath>
+                <pathelement path="C:/Users/junit-4.10.jar"/>
+                <pathelement location="${buildTest}"/>
+                <pathelement location="${buildSrc}"/>
+            </classpath>
+            <formatter type="plain" usefile="false" />
+            <test name="TestForAnt"/>
+        </junit>
+    </target>
+
+    <target name="clean">
+        <delete dir="build"/>
+        <delete dir="${dist}"/>
+        <delete file="AntTest.zip"/>
+    </target>
+
+    <target name="java-version">
+        <echo message="JAVA:"/>
+        <exec executable="java">
+            <arg value="-version"/>
+        </exec>
+    </target>
+
+    <target name="ant-version" depends="java-version">
+        <echo message="ANT:"/>
+        <exec executable="cmd">
+            <arg value="/c"/>
+            <arg value="ant.bat"/>
+            <arg value="-version"/>
+        </exec>
+    </target>
+
+</project>
